@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.main-contents {
+  display: flex;
+  justify-content: center;
+}
+
+.item-box {
+  width: 300px;
+  margin-right: 30px;
+  background-color: #eeeeee;
+}
+
+.step {
+  width: 300px;
+  height:150px;
+}
+
+.step:nth-child(1) {
+  background-image: url(img1-9ex/flow01.png);
+  background-size: cover;
+  background-position: center;
+  }
+  
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #aaaaaa;
+}
