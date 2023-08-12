@@ -107,6 +107,23 @@ main {
   display: inline-block;
   font-size: 12px
 }
+
+.pagenation {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.pagenation p {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 3px;
+  background-color: #acabab;
+  color: #fff;
+  margin: 0 5px;
+  line-height: 30px;
+}
+
 .category {
   display: inline-block;
   padding: 5px 8px;
@@ -130,7 +147,7 @@ main {
   padding: 50px 0;
 }
 
-.popular-text, 
+.popular-text,
 .categories-text {
   padding-bottom: 5px;
   border-bottom: 1px solid #f7f7f7;
