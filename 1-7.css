@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin: 20px;
+  color: gray;
+  display: inline-block;
+}
+
+a {
+  color:  gray;
+}
+
+.main-visual {
+  width: 100%;
+  height: 400px;
+  background-image: url(img1-7ex/mv.jpg);
+  background-size: cover;
+  /*background-position: 0px 400px ;*/
+  background-position: bottom;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.web-sites {
+  width: 840px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.web-sites-item {
+  padding: 30px 0;
+  border-bottom: 1px solid  #d1d1d1;
+}
+
+.web-text {
+  color: gray;
+}
